@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="sub-container">
+        <div class="title">
+            <h2>Product List</h2>
+        </div>
+
+        <div class="card-container">
+            <ng-container *ngFor="let product of products">
+            <div class="card" *ngIf="product?.status == 'approved'">
+                <h3>Name: {{product?.name}}</h3>
+                <p>Price: {{product?.price - product?.discount}}</p>
+            </div>
+        </ng-container>
+        </div>
+
+    </div>
+</div>
+<h2>Hi</h2>

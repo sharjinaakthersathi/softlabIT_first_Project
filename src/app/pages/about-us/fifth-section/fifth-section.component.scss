@@ -1,0 +1,48 @@
+.sub-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 30px;
+    margin: 20px;
+}
+.contact-container{
+    background-color: aliceblue;
+    padding: 30px;
+    position: relative;
+    .img-1{
+position: absolute;
+right: 0;
+bottom: 0;
+height: 120px;
+width: 120px;
+    }
+    .img-2{
+position: absolute;
+right: 30px;
+bottom: 30px;
+height: 120px;
+width: 120px;
+z-index: 9999;
+    }
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    background-color: rgb(252, 244, 239);
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    padding: 10px;
+}
+
+.btn{
+    padding: 12px;
+    border-radius: 8px;
+    background-color: rgb(145, 179, 167);
+    margin: 10px;
+    color: rgb(19, 18, 18);
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}

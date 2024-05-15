@@ -1,0 +1,60 @@
+<div class="main-container">
+  <div class="sub-container">
+    <div class="contact-container">
+      <h1><b>Contact Information</b></h1>
+      <p>Say something to start a live chat!</p>
+      <br />
+      <br />
+      <br />
+      <i class="fa fa-phone" aria-hidden="true"></i> +10108457425 <br />
+      <i class="fa fa-envelope" aria-hidden="true"></i> demo@gmail.com <br />
+      <i class="fa fa-map-marker" aria-hidden="true"></i> 132 Danthmouth street
+      Boston, <br />
+      Massachusetts 02156 United State.
+      <br />
+      <br />
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-discord"></i>
+
+      <img
+        class="img-1"
+        src="../../../../assets/images/contact-pg-img/Ellipse 793.png"
+        alt=""
+      />
+      <img class="img-2"
+        src="../../../../assets/images/contact-pg-img/Frame 1000008729.png"
+        alt=""
+      />
+    </div>
+    <div class="form-container">
+      <h1><b>Register/ Log In</b></h1>
+      <form [formGroup]="formData" action="">
+        <label for="fname">First Name : </label>
+        <input type="text" formControlName="fname"/>
+        <br />
+        <br />
+        <label for="fname">Last Name : </label>
+        <input type="text" formControlName="lname"/>
+        <br />
+        <br />
+
+        <label for="fname">Email : </label>
+        <input type="text" formControlName="email" />
+        <br />
+        <br />
+
+        <label for="fname">Phone Number : </label>
+        <input type="text" formControlName="phone" />
+        <br />
+        <br />
+
+        <label for="fname">Password : </label>
+        <input type="password" formControlName="password" />
+        <br />
+        <br />
+      </form>
+      <button class="btn" (click)="onSubmit()">Submit</button>
+    </div>
+  </div>
+</div>

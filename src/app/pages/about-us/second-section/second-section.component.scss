@@ -1,0 +1,23 @@
+.icon-img{
+    padding: 20px;
+}
+.writing-container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: center;
+    padding: 20px;
+}
+.h1-tag{
+    padding: 20px;
+    margin: 2%;
+}
+
+@media screen and (max-width: 599px){
+    .writing-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        justify-content: center;
+    }
+    
+}

@@ -1,0 +1,21 @@
+.sub-container{
+    .title{
+        text-align: center;
+    }
+
+    .card-container{
+        border: 1px solid blue;
+        // background: red;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+
+        .card{
+            height: 250px;
+            width: 300px;
+            background: greenyellow;
+            border: 1px solid rebeccapurple;
+            min-width: 250px;
+        }
+    }
+}

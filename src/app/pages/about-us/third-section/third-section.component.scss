@@ -1,0 +1,34 @@
+.writing-part{
+    text-align: center;
+    padding: 30px;
+}
+
+
+.main-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 50px;
+}
+
+.test-container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 50px;
+    
+}
+.writing-container{
+    padding: 0px 25px 0 50px;
+
+}
+
+
+@media screen and (max-width:600px) {
+    .test-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        // justify-content: space-between;
+        gap: 10px;
+        padding: 10px;
+    }
+    
+}
